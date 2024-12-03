@@ -88,6 +88,7 @@ fn is_line_safe(parts: &Vec<&str>) -> bool {
     return is_safe;
 }
 
+// get the position of the first element that causes line to be unsafe
 fn position_of_first_unsafe_element(parts: &Vec<&str>) -> usize {
     let mut pos = 0;
     //let mut pos_to_remove = 0;
